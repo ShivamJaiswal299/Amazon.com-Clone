@@ -1,0 +1,501 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: #193040;
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+.nav-logo{
+    width: 114px;
+    height: 50px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    background-image: url(amazon-logo.png);
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+.border:hover{
+    border: 2px solid white;
+    border-radius: 6px;
+}
+.nav-region{
+    width: 90.64px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.nav-region-top{
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 18px;
+    
+}
+.nav-region-bottom{
+    display: flex;
+    font-size: 14px;
+    color: #ffffff;
+}
+.nav-search{
+    padding-left: 9px;
+    width: 913.31px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#search-select{
+    height: 40px;
+    border: 0px;
+    width: 50px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 6px 0px 0px 6px;
+
+}
+#search-box{
+    font-size: 1.01rem;
+    width: 789.71px;
+    border: 0px;
+    height: 40px;
+}
+#search-button{
+    width: 45px;
+    height: 40px;
+    background-color: rgb(255, 170, 105);
+    border-radius: 0px 6px 6px 0px;
+    border: 0px;
+}
+.nav-lang{
+    width: 80.38px;
+    padding-top: 15px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lang-select{
+    background-color: #193040;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-signin{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#signin-top{
+    font-size: 12px;
+}
+.signin-bottom{
+    font-size: 14px;
+    font-weight: bold;
+}
+.signin-bottom{
+    display: flex;
+}
+#signin-bottom-select{
+    border: none;
+    color: rgb(175, 175, 175);
+    background-color: #193040;
+}
+.nav-order{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding-left: 10px;
+}
+#nav-order-top{
+    font-size: 12px;
+
+}
+#nav-order-bottom{
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-cart{
+    width: 114px;
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2{
+    background-color: #203a4d;
+    height: 39px;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.nav2-item{
+    margin-left: 18px;
+    font-size: 14px;
+    padding-top: 7px;
+    height: 37px;
+}
+.hero-sec{
+    background-color: #cb2c2c;
+    background-image: url(heroSec/71GGl3UpyOL._SX3000_.jpg);
+    background-size: cover;
+    margin-left: 5px;
+    width: 1500px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.hero-sec-cont{
+    font-size: 14px;
+    width: 96%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.content-boxs{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    background-color: #E3E6E6;
+    padding-bottom: 15px;
+
+}
+.box{
+    background-color: white;
+    width: 350px;
+    height: 420px;
+    margin: 10px 0px 10px 0px;
+}
+#box-header{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 20px;
+    margin-left: 25px;
+}
+#box-footer{
+    font-size: 13px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    margin-left: 25px;
+}
+#box1-bg{
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    background-image: url(contentImages/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg);
+    background-size: cover;
+}
+#box2-bg{
+    height: 275px;
+    width: 300px;
+    margin-left: 25px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/headphones/Janart/mso/PC_CC_379x3080.5x._SY304_CB773159703_.jpg);
+    background-size: cover;
+}
+#box3-bg{
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    background-image: url(contentImages/217GQ1a2QzL._SY75_.jpg);
+    background-size: cover;
+}
+#box4-bg{
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/CEPC/WD/JanART26/14th/New/PC_CC_758x608-1X._SY304_CB773132748_.jpg);
+    background-size: cover;
+}
+#box5-bg{
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/03/x-site/2022/Mozart_Evergreen/XCM_Manual_1297943_1520891_DE_EN_january_themed_gw_cards_home_758x608._SY304_CB627501567_.jpg);
+    background-size: cover;
+}
+#box6-bg{
+    height: 275px;
+    width: 300px;
+    margin-left: 25px;
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/2025/Images/379X304CC_ASIN._SY304_CB773342341_.jpg);
+    background-size: cover;
+}
+#box7-bg{
+    height: 300px;
+    width: 300px;
+    margin-left: 25px;
+    background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/jci-export/JS_Single-Category-Card_379x304_v2._SY304_CB541256467_.jpg);
+    background-size: cover;
+}
+#box8-bg{
+    height: 275px;
+    width: 300px;
+    margin-left: 25px;
+    background-image: url(https://images-fe.ssl-images-amazon.com/images/G/09/jci-export/todaysdeal._SY304_CB541659139_.jpg);
+    background-size: cover;
+}
+#box9{
+    width: 97%;
+    background-color: white;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box9head{
+    width: 100%;
+    height: 15px;
+}
+#box9-head-para{
+    font-size: 21px;
+    font-weight: bold;
+    padding-left: 25px;
+
+}
+.box91{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/21W7-lndINL._SY75_.jpg);
+    background-size: cover;
+}
+.box92{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/217GQ1a2QzL._SY75_.jpg);
+    background-size: cover;
+}
+.box93{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/21B-NkA9p-L._SY75_.jpg);
+    background-size: cover;
+}
+.box94{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/HomeDecor_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+}
+.box95{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/Bedding_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+}
+.box96{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/HomeStorage_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+}
+.box97{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/CleaningTool_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+}
+.box98{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/Home_Flip_Summer_2024_318_HP_NewArrivals_QuadCard_D_04_1x._SY116_CB555960040_.jpg);
+    background-size: cover;
+}
+/* Box10 - same layout as box9 */
+#box10{
+    width: 97%;
+    background-color: white;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box10head{
+    width: 100%;
+    height: 15px;
+}
+#box10-head-para{
+    font-size: 21px;
+    font-weight: bold;
+    padding-left: 25px;
+
+}
+.box101{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/21W7-lndINL._SY75_.jpg);
+    background-size: cover;
+}
+.box102{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/217GQ1a2QzL._SY75_.jpg);
+    background-size: cover;
+}
+.box103{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/21B-NkA9p-L._SY75_.jpg);
+    background-size: cover;
+}
+.box104{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/HomeDecor_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+}
+.box105{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/Bedding_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+}
+.box106{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/HomeStorage_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+}
+.box107{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/CleaningTool_1x._SY116_CB563137408_.jpg);
+    background-size: cover;
+}
+.box108{
+    height: 200px;
+    width: 145px;
+    background-image: url(contentImages/Home_Flip_Summer_2024_318_HP_NewArrivals_QuadCard_D_04_1x._SY116_CB555960040_.jpg);
+    background-size: cover;
+}
+.foot-backtop{
+    width: 100%;
+    height: 49px;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.foot-links{
+    padding-top: 49px;
+    width: 100%;
+    height: 350px;
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.links-box{
+    /* width: 136px; */
+    border: 2px solid transparent;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.trans-para{
+    font-size: 14px;
+    color: #dddddd;
+    margin-top: 10px;
+}
+.extra-foot{
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid #505f72;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-btn{
+    border: 1px solid #848688;
+    color: #cccccc;
+    font-size: 13px;
+    height: 33.5px;
+    padding: 8px 10px 6px 10px;
+    margin: 0px 7px 0px 7px;
+    border-radius: 3px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.extra-foot1{
+    width: 100px;
+    height: 55px;
+    background-image: url(amazon-logo.png);
+    background-size: cover;
+    margin-right: 70px;
+}
+.last-foot{
+    width: 100%;
+    height: 400px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+.last-foot-blocks{
+    height: 53.6px;
+    width: 122.5px;
+    padding: 0px 20px 0px 20px;
+}
+.last-foot-para{
+    font-size: 12px;
+    color: #999999;
+}
+.last-foot-header{
+    font-size: 12px;
+    color: #dddddd;
+    padding-top: 25px;
+}
+.ending{
+    width: 100%;
+    height: 70px;
+    background-color: #131A22;
+    font-size: 12px;
+    color: #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ending1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ending2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
